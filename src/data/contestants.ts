@@ -1,0 +1,68 @@
+import type { Contestant } from '../models/contestant';
+
+export const contestants: Contestant[] = [
+  {
+    id: 'ariana-luxe',
+    name: 'Ariana Luxe',
+    archetype: 'ALL_ROUNDER',
+    volatility: 0.3,
+    stats: {
+      acting: 14,
+      comedy: 13,
+      design: 14,
+      dance: 12,
+      singing: 13,
+      improv: 13,
+      branding: 15,
+      runway: 16,
+    },
+  },
+  {
+    id: 'mimi-mayhem',
+    name: 'Mimi Mayhem',
+    archetype: 'CHAOTIC_WILDCARD',
+    volatility: 0.9,
+    stats: {
+      acting: 11,
+      comedy: 18,
+      design: 8,
+      dance: 10,
+      singing: 9,
+      improv: 17,
+      branding: 12,
+      runway: 11,
+    },
+  },
+  {
+    id: 'veloura',
+    name: 'Veloura',
+    archetype: 'DESIGN_QUEEN',
+    volatility: 0.5,
+    stats: {
+      acting: 9,
+      comedy: 8,
+      design: 18,
+      dance: 10,
+      singing: 9,
+      improv: 7,
+      branding: 13,
+      runway: 19,
+    },
+  },
+  {
+    id: 'nova-blaze',
+    name: 'Nova Blaze',
+    archetype: 'PERFORMANCE_QUEEN',
+    volatility: 0.6,
+    stats: {
+      acting: 12,
+      comedy: 11,
+      design: 9,
+      dance: 18,
+      singing: 17,
+      improv: 12,
+      branding: 13,
+      runway: 14,
+    },
+  },
+];
